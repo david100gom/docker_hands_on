@@ -10,9 +10,9 @@ centos 내에서 아래 단계 실행.
 ## step 1.
  * centos /home/docker 폴더 생성후 아래 폴더와 하위의 모든 파일들을 centos 로 옮긴다.<br> <br>
  
- * prod<br>
- * tomcat-base<br>
- * web-base <br>
+   prod<br>
+   tomcat-base<br>
+   web-base <br>
  
 ## step 2. 도커설치
  * yum install docker -y<br>
