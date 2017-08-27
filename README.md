@@ -1,6 +1,6 @@
 # docker_hands_on
-도커 핸즈온
-
+  Docker hands on
+  
 ![docker](./flow.png)
 
 # Hands On 단계
@@ -20,7 +20,7 @@ centos 내에서 아래 단계 실행.
  * ps -ef | grep docker<br>
  * chkconfig docker on 	//--부팅했을 때 docker 서비스 자동으로 실행
 
-## step 3. 로컬 저장소 생성
+## step 3. 로컬 저장소 생성 (AWS ECR 대신)
  * sudo docker pull registry:latest<br>
  * sudo docker run -d -p 5000:5000 --name local-registry -v /tmp/registry:/tmp/registry registry
 
